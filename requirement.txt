@@ -1,0 +1,15 @@
+flask==2.3.3
+flask-cors>=4.0.0
+tweepy>=4.10.0
+numpy>=2.0.0
+pandas>=2.0.0
+nltk>=3.7
+textblob>=0.17.1
+requests>=2.27.1
+pydantic>=1.9.0
+python-dotenv>=0.20.0
+pymongo>=4.1.0
+schedule>=1.1.0
+pyyaml>=6.0.1
+
+token key "AAAAAAAAAAAAAAAAAAAAAHTEzgEAAAAAIrGgxzJVt%2FE1rdh6LguyU1N8xIs%3DZTEI95YqUCYA5mQtBbT5j2RZQiw6Y93ZH7FAedsYNXSHRbEoV2"
