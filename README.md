@@ -1,96 +1,145 @@
 # Memecoin Tweet Tracker
 
-A web application for tracking and analyzing tweets about memecoins, with features for monitoring celebrity mentions, sentiment analysis, and trend tracking.
+A data analysis system for tracking and analyzing memecoin-related tweets from celebrities and influencers using historical tweet datasets.
 
 ## Features
 
-- Real-time tweet tracking for memecoins
-- Celebrity mention monitoring
-- Sentiment analysis
-- Trend analysis and visualization
-- Customizable keyword tracking
-- Interactive dashboard
-- RESTful API
+- Historical tweet dataset processing and analysis
+- Celebrity and influencer tweet tracking
+- Sentiment analysis of tweets
+- Memecoin mention detection
+- Trend analysis and statistics
+- Email notifications for significant events
+- REST API for data access
+- Interactive dashboard for visualization
 
-## Tech Stack
+## Prerequisites
 
-### Backend
-- Python
-- Flask
-- SQLite/PostgreSQL
-- Twitter API
-- Natural Language Processing
+- Python 3.8+
+- MongoDB
+- Tweet dataset in JSONL format
+- SMTP server for email notifications (optional)
 
-### Frontend
-- React
-- Material-UI
-- Chart.js
-- React Query
-- Axios
+## Installation
 
-## Setup
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/memecoin-info.git
+cd memecoin-info
+```
 
-### Backend Setup
-
-1. Create a virtual environment:
+2. Create and activate a virtual environment:
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
-2. Install dependencies:
+3. Install dependencies:
 ```bash
-pip install -r requirements.txt
+pip install -r requirement.txt
 ```
 
-3. Set up environment variables:
+4. Set up NLP components:
 ```bash
-cp .env.example .env
-# Edit .env with your configuration
+python setup_nlp.py
 ```
 
-4. Run the backend server:
+5. Prepare your dataset:
+   - Place your tweet dataset in JSONL format at `data/tweets.jsonl`
+   - Each tweet should include: id, text, created_at, author (username, name), engagement metrics
+
+6. Configure the application:
+   - Copy `config/dataset_config.json.example` to `config/dataset_config.json`
+   - Update the configuration with your dataset settings
+   - Configure email settings for notifications (optional)
+
+## Dataset Format
+
+The system expects tweets in JSONL format with the following structure:
+```json
+{
+    "id": "tweet_id",
+    "text": "tweet content",
+    "created_at": "2023-01-01T00:00:00Z",
+    "author": {
+        "username": "username",
+        "name": "display name",
+        "followers_count": 1000
+    },
+    "like_count": 100,
+    "retweet_count": 50,
+    "reply_count": 10,
+    "mentions": ["user1", "user2"],
+    "hashtags": ["memecoin", "crypto"],
+    "urls": ["https://example.com"]
+}
+```
+
+## Usage
+
+1. Process the dataset:
 ```bash
 python main.py
 ```
 
-### Frontend Setup
+2. Access the dashboard:
+   - Open `http://localhost:8050` in your browser
 
-1. Navigate to the client directory:
-```bash
-cd client
+3. Use the REST API:
+   - Base URL: `http://localhost:5001`
+   - Available endpoints:
+     - `/api/tweets`: Get tweets with filters
+     - `/api/celebrities`: Get tracked celebrities
+     - `/api/keywords`: Get tracked keywords
+     - `/api/statistics`: Get analysis statistics
+     - `/api/trends`: Get trending memecoins
+
+## Project Structure
+
+```
+memecoin-info/
+├── src/
+│   ├── api.py              # REST API implementation
+│   ├── dashboard.py        # Interactive dashboard
+│   ├── data_processor.py   # Data analysis and processing
+│   ├── notification_service.py  # Email notifications
+│   └── twitter_listener.py # Dataset processing
+├── config/
+│   ├── dataset_config.json
+│   ├── database_config.json
+│   └── email_config.json
+├── data/
+│   ├── tweets.jsonl       # Tweet dataset
+│   └── nltk_data/         # NLP models and data
+├── tests/
+│   ├── test_twitter.py
+│   └── test_db.py
+├── main.py
+├── setup_nlp.py
+└── requirement.txt
 ```
 
-2. Install dependencies:
+## Testing
+
+Run the test suite:
 ```bash
-npm install
+pytest
 ```
-
-3. Start the development server:
-```bash
-npm start
-```
-
-## API Endpoints
-
-- `GET /api/tweets` - Get tweets with optional filters
-- `GET /api/celebrities` - Get list of tracked celebrities
-- `GET /api/keywords` - Get list of tracked keywords
-- `GET /api/statistics` - Get statistics and insights
-- `GET /api/trends` - Get trending memecoins
-- `POST /api/celebrities` - Add a new celebrity to track
-- `POST /api/keywords` - Add a new keyword to track
-- `DELETE /api/celebrities/{name}` - Remove a celebrity from tracking
-- `DELETE /api/keywords/{keyword}` - Remove a keyword from tracking
 
 ## Contributing
 
 1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+2. Create a feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a Pull Request
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details. 
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- NLTK for natural language processing
+- MongoDB for data storage
+- Flask and Dash for web interfaces 

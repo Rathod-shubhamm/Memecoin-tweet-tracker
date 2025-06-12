@@ -1,0 +1,964 @@
+2025-05-17 23:11:44,577 - __main__ - INFO - Starting Memecoin Tweet Tracker
+2025-05-17 23:11:44,577 - config - ERROR - Error loading configuration: [Errno 2] No such file or directory: '/Users/shubhamrathod/Desktop/project/memecoin-info/config/config.yaml'
+2025-05-17 23:11:44,577 - __main__ - ERROR - Error in main: [Errno 2] No such file or directory: '/Users/shubhamrathod/Desktop/project/memecoin-info/config/config.yaml'
+2025-05-17 23:24:32,955 - __main__ - INFO - Starting Memecoin Tweet Tracker
+2025-05-17 23:25:03,306 - database - ERROR - Error connecting to MongoDB: localhost:27017: [Errno 61] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 6828cd58ac24452641f691fd, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 61] Connection refused')>]>
+2025-05-17 23:25:03,306 - __main__ - ERROR - Error in main: localhost:27017: [Errno 61] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 6828cd58ac24452641f691fd, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 61] Connection refused')>]>
+2025-05-18 00:03:19,838 - __main__ - INFO - Starting Memecoin Tweet Tracker
+2025-05-18 00:03:50,186 - database - ERROR - Error connecting to MongoDB: localhost:27017: [Errno 61] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 6828d66f95195ad3aaa1a362, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 61] Connection refused')>]>
+2025-05-18 00:03:50,188 - __main__ - ERROR - Error in main: localhost:27017: [Errno 61] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 6828d66f95195ad3aaa1a362, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 61] Connection refused')>]>
+2025-05-18 00:11:12,930 - __main__ - INFO - Starting Memecoin Tweet Tracker
+2025-05-18 00:11:43,259 - database - ERROR - Error connecting to MongoDB: localhost:27017: [Errno 61] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 6828d8483fb88659a0a44d0c, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 61] Connection refused')>]>
+2025-05-18 00:11:43,261 - __main__ - ERROR - Error in main: localhost:27017: [Errno 61] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 6828d8483fb88659a0a44d0c, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 61] Connection refused')>]>
+2025-05-18 00:12:33,056 - __main__ - INFO - Starting Memecoin Tweet Tracker
+2025-05-18 00:13:03,346 - database - ERROR - Error connecting to MongoDB: localhost:27017: [Errno 61] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 6828d89950f401b2072de971, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 61] Connection refused')>]>
+2025-05-18 00:13:03,349 - __main__ - ERROR - Error in main: localhost:27017: [Errno 61] Connection refused, Timeout: 30s, Topology Description: <TopologyDescription id: 6828d89950f401b2072de971, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 61] Connection refused')>]>
+2025-05-18 00:14:10,679 - __main__ - INFO - Starting Memecoin Tweet Tracker
+2025-05-18 00:14:14,696 - database - INFO - Successfully connected to MongoDB
+2025-05-18 00:14:16,475 - database - INFO - Database handler initialized
+2025-05-18 00:14:16,476 - src.notifcation_service - INFO - Notification service initialized with channels: 
+2025-05-18 00:14:16,476 - src.data_processor - INFO - Data processor initialized
+2025-05-18 00:14:16,476 - twitter_listener - ERROR - Error initializing Twitter client: 'consumer_key'
+2025-05-18 00:14:16,476 - __main__ - ERROR - Error in main: 'consumer_key'
+2025-05-18 00:15:35,446 - __main__ - INFO - Starting Memecoin Tweet Tracker
+2025-05-18 00:15:39,443 - database - INFO - Successfully connected to MongoDB
+2025-05-18 00:15:41,263 - database - INFO - Database handler initialized
+2025-05-18 00:15:41,264 - src.notifcation_service - INFO - Notification service initialized with channels: 
+2025-05-18 00:15:41,264 - src.data_processor - INFO - Data processor initialized
+2025-05-18 00:15:41,487 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:15:41,709 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:15:41,710 - twitter_listener - INFO - Twitter listener initialized with 0 celebrities
+2025-05-18 00:15:41,711 - twitter_listener - INFO - Starting Twitter listener stream
+2025-05-18 00:15:41,711 - src.api - INFO - Starting API server on 0.0.0.0:5000
+2025-05-18 00:15:41,716 - src.dashboard - INFO - Starting Dashboard server on localhost:8050
+2025-05-18 00:15:41,980 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:15:42,287 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:16:42,497 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:16:42,721 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:17:13,913 - __main__ - INFO - Starting Memecoin Tweet Tracker
+2025-05-18 00:17:17,746 - database - INFO - Successfully connected to MongoDB
+2025-05-18 00:17:19,546 - database - INFO - Database handler initialized
+2025-05-18 00:17:19,547 - src.notifcation_service - INFO - Notification service initialized with channels: 
+2025-05-18 00:17:19,547 - src.data_processor - INFO - Data processor initialized
+2025-05-18 00:17:19,856 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:17:20,139 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:17:20,139 - twitter_listener - INFO - Twitter listener initialized with 0 celebrities
+2025-05-18 00:17:20,140 - twitter_listener - INFO - Starting Twitter listener stream
+2025-05-18 00:17:20,140 - src.api - INFO - Starting API server on 0.0.0.0:5000
+2025-05-18 00:17:20,144 - src.dashboard - INFO - Starting Dashboard server on localhost:8050
+2025-05-18 00:17:20,366 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:17:20,676 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:17:42,953 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:17:43,176 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:18:20,960 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:18:21,181 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:18:43,402 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:18:43,721 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:19:21,407 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:19:21,629 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:19:44,036 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:19:44,261 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:20:22,134 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:20:22,359 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:20:44,484 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:20:44,708 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:21:22,585 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:21:22,851 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:21:45,278 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:21:45,911 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:22:23,130 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:22:23,354 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:22:46,139 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:22:46,363 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:23:23,589 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:23:23,815 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:23:46,595 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:23:46,818 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:24:47,040 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:24:47,344 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:25:24,091 - __main__ - INFO - Starting Memecoin Tweet Tracker
+2025-05-18 00:25:27,958 - database - INFO - Successfully connected to MongoDB
+2025-05-18 00:25:29,587 - database - INFO - Database handler initialized
+2025-05-18 00:25:29,587 - src.notifcation_service - INFO - Notification service initialized with channels: 
+2025-05-18 00:25:29,587 - src.data_processor - INFO - Data processor initialized
+2025-05-18 00:25:29,817 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:25:30,046 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:25:30,046 - twitter_listener - INFO - Twitter listener initialized with 0 celebrities
+2025-05-18 00:25:30,047 - twitter_listener - INFO - Starting Twitter listener stream
+2025-05-18 00:25:30,047 - src.api - INFO - Starting API server on 0.0.0.0:5000
+2025-05-18 00:25:30,050 - src.dashboard - INFO - Starting Dashboard server on localhost:8050
+2025-05-18 00:25:30,276 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:25:30,507 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:25:47,602 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:25:47,824 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:26:37,922 - __main__ - INFO - Starting Memecoin Tweet Tracker
+2025-05-18 00:26:41,863 - database - INFO - Successfully connected to MongoDB
+2025-05-18 00:26:43,740 - database - INFO - Database handler initialized
+2025-05-18 00:26:43,741 - src.notifcation_service - INFO - Notification service initialized with channels: 
+2025-05-18 00:26:43,741 - src.data_processor - INFO - Data processor initialized
+2025-05-18 00:26:43,986 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:26:44,285 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:26:44,286 - twitter_listener - INFO - Twitter listener initialized with 0 celebrities
+2025-05-18 00:26:44,286 - twitter_listener - INFO - Starting Twitter listener stream
+2025-05-18 00:26:44,287 - src.api - INFO - Starting API server on 0.0.0.0:5000
+2025-05-18 00:26:44,290 - src.dashboard - INFO - Starting Dashboard server on localhost:8050
+2025-05-18 00:26:44,592 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:26:44,838 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:26:48,074 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:26:48,296 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:27:48,528 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:27:48,752 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:28:50,663 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:28:50,888 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:29:22,462 - __main__ - INFO - Starting Memecoin Tweet Tracker
+2025-05-18 00:29:32,624 - database - INFO - Successfully connected to MongoDB
+2025-05-18 00:29:36,055 - database - INFO - Database handler initialized
+2025-05-18 00:29:36,055 - src.notifcation_service - INFO - Notification service initialized with channels: 
+2025-05-18 00:29:36,055 - src.data_processor - INFO - Data processor initialized
+2025-05-18 00:29:36,270 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:29:36,485 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:29:36,485 - twitter_listener - INFO - Twitter listener initialized with 0 celebrities
+2025-05-18 00:29:36,486 - twitter_listener - INFO - Starting Twitter listener stream
+2025-05-18 00:29:36,486 - src.api - INFO - Starting API server on 0.0.0.0:5000
+2025-05-18 00:29:36,491 - src.dashboard - INFO - Starting Dashboard server on localhost:8050
+2025-05-18 00:29:36,712 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:29:36,928 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:29:51,119 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:29:51,349 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:30:37,351 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:30:37,570 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:30:51,581 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:30:51,820 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:31:53,305 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:31:53,527 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:32:06,014 - __main__ - INFO - Starting Memecoin Tweet Tracker
+2025-05-18 00:32:10,747 - database - INFO - Successfully connected to MongoDB
+2025-05-18 00:32:12,714 - database - INFO - Database handler initialized
+2025-05-18 00:32:12,715 - src.notifcation_service - INFO - Notification service initialized with channels: 
+2025-05-18 00:32:12,715 - src.data_processor - INFO - Data processor initialized
+2025-05-18 00:32:13,580 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:32:13,889 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:32:13,890 - twitter_listener - INFO - Twitter listener initialized with 0 celebrities
+2025-05-18 00:32:13,890 - twitter_listener - INFO - Starting Twitter listener stream
+2025-05-18 00:32:13,891 - src.api - INFO - Starting API server on localhost:5000
+2025-05-18 00:32:13,893 - src.dashboard - INFO - Starting Dashboard server on localhost:8050
+2025-05-18 00:32:13,903 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-05-18 00:32:13,903 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-18 00:32:14,221 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:32:14,657 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:32:53,742 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:32:53,965 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:33:14,900 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:33:15,235 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:33:49,545 - __main__ - INFO - Starting Memecoin Tweet Tracker
+2025-05-18 00:33:53,431 - database - INFO - Successfully connected to MongoDB
+2025-05-18 00:33:54,192 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:33:54,414 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:33:55,065 - database - INFO - Database handler initialized
+2025-05-18 00:33:55,066 - src.notifcation_service - INFO - Notification service initialized with channels: 
+2025-05-18 00:33:55,066 - src.data_processor - INFO - Data processor initialized
+2025-05-18 00:33:55,373 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:33:55,601 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:33:55,601 - twitter_listener - INFO - Twitter listener initialized with 0 celebrities
+2025-05-18 00:33:55,601 - twitter_listener - INFO - Starting Twitter listener stream
+2025-05-18 00:33:55,602 - src.api - INFO - Starting API server on localhost:5000
+2025-05-18 00:33:55,604 - src.dashboard - INFO - Starting Dashboard server on localhost:8050
+2025-05-18 00:33:55,605 - dash.dash - INFO - Dash is running on http://localhost:8050/
+
+2025-05-18 00:33:55,618 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-05-18 00:33:55,618 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8050
+2025-05-18 00:33:55,618 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-18 00:33:55,618 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-18 00:33:55,828 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:33:56,092 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:34:18,505 - src.data_processor - INFO - Processing data from the last 24 hours
+2025-05-18 00:34:18,739 - database - INFO - Retrieved 0 tweets
+2025-05-18 00:34:18,739 - src.data_processor - INFO - No recent tweets to process
+2025-05-18 00:34:55,281 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:34:55,819 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:34:56,322 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:34:56,550 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:35:56,044 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:35:56,268 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:35:56,784 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:35:57,012 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:36:56,495 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:36:56,828 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:36:57,245 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:36:57,474 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:37:37,562 - __main__ - INFO - Starting Memecoin Tweet Tracker
+2025-05-18 00:37:41,493 - database - INFO - Successfully connected to MongoDB
+2025-05-18 00:37:43,113 - database - INFO - Database handler initialized
+2025-05-18 00:37:43,114 - src.notifcation_service - INFO - Notification service initialized with channels: 
+2025-05-18 00:37:43,114 - src.data_processor - INFO - Data processor initialized
+2025-05-18 00:37:43,339 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:37:43,582 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:37:43,583 - twitter_listener - INFO - Twitter listener initialized with 0 celebrities
+2025-05-18 00:37:43,583 - twitter_listener - INFO - Starting Twitter listener stream
+2025-05-18 00:37:43,583 - src.api - INFO - Starting API server on localhost:5000
+2025-05-18 00:37:43,585 - src.dashboard - INFO - Starting Dashboard server on localhost:8050
+2025-05-18 00:37:43,585 - dash.dash - INFO - Dash is running on http://localhost:8050/
+
+2025-05-18 00:37:43,591 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8050
+2025-05-18 00:37:43,591 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-18 00:37:43,807 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:37:44,136 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:37:57,141 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:37:57,418 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:37:57,702 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:37:57,931 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:38:21,698 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:38:21] "GET / HTTP/1.1" 200 -
+2025-05-18 00:38:21,746 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:38:21] "GET /_dash-component-suites/dash/deps/polyfill@7.v3_0_4m1747503692.12.1.min.js HTTP/1.1" 200 -
+2025-05-18 00:38:21,746 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:38:21] "GET /_dash-component-suites/dash/deps/react@18.v3_0_4m1747503692.3.1.min.js HTTP/1.1" 200 -
+2025-05-18 00:38:21,747 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:38:21] "GET /_dash-component-suites/dash/deps/react-dom@18.v3_0_4m1747503692.3.1.min.js HTTP/1.1" 200 -
+2025-05-18 00:38:21,909 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:38:21] "GET /_dash-component-suites/dash/deps/prop-types@15.v3_0_4m1747503692.8.1.min.js HTTP/1.1" 200 -
+2025-05-18 00:38:21,913 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:38:21] "GET /_dash-component-suites/dash/dcc/dash_core_components.v3_0_6m1747503692.js HTTP/1.1" 200 -
+2025-05-18 00:38:21,913 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:38:21] "GET /_dash-component-suites/dash/dash-renderer/build/dash_renderer.v3_0_4m1747503692.min.js HTTP/1.1" 200 -
+2025-05-18 00:38:21,948 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:38:21] "GET /_dash-component-suites/dash/html/dash_html_components.v3_0_2m1747503692.min.js HTTP/1.1" 200 -
+2025-05-18 00:38:21,948 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:38:21] "GET /_dash-component-suites/dash/dcc/dash_core_components-shared.v3_0_6m1747503692.js HTTP/1.1" 200 -
+2025-05-18 00:38:21,949 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:38:21] "GET /_dash-component-suites/dash/dash_table/bundle.v6_0_2m1747503692.js HTTP/1.1" 200 -
+2025-05-18 00:38:21,970 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:38:21] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:38:21,979 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:38:21] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-05-18 00:38:21,979 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:38:21] "GET /_dash-layout HTTP/1.1" 200 -
+2025-05-18 00:38:22,003 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:38:22] "GET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1" 200 -
+2025-05-18 00:38:22,003 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:38:22] "GET /_dash-component-suites/dash/dcc/async-datepicker.js HTTP/1.1" 200 -
+2025-05-18 00:38:22,005 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:38:22] "GET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 200 -
+2025-05-18 00:38:22,013 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:38:22] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:38:22,017 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:38:22] "GET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1" 200 -
+2025-05-18 00:38:22,021 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:38:22] "GET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1" 200 -
+2025-05-18 00:38:22,031 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:38:22] "GET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1" 200 -
+2025-05-18 00:38:22,050 - src.dashboard - ERROR - Error fetching from API /api/celebrities: 403 Client Error: Forbidden for url: http://localhost:5000/api/celebrities
+2025-05-18 00:38:22,051 - src.dashboard - ERROR - Error in populate_dropdowns: 'NoneType' object is not iterable
+2025-05-18 00:38:22,051 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:38:22] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:38:22,052 - src.dashboard - ERROR - Error fetching from API /api/tweets: 403 Client Error: Forbidden for url: http://localhost:5000/api/tweets?start_date=2025-05-11&end_date=2025-05-18
+2025-05-18 00:38:22,396 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:38:22] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:38:44,416 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:38:44,655 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:38:57,646 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:38:57,869 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:38:58,165 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:38:58,394 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:39:18,735 - src.data_processor - INFO - Processing data from the last 24 hours
+2025-05-18 00:39:18,967 - database - INFO - Retrieved 0 tweets
+2025-05-18 00:39:18,968 - src.data_processor - INFO - No recent tweets to process
+2025-05-18 00:39:23,413 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:23] "GET / HTTP/1.1" 200 -
+2025-05-18 00:39:23,574 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:23] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:39:23,577 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:23] "GET /_dash-layout HTTP/1.1" 200 -
+2025-05-18 00:39:23,579 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:23] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-05-18 00:39:23,585 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:23] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:39:23,588 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:23] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-05-18 00:39:23,589 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:23] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+2025-05-18 00:39:23,593 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:23] "[36mGET /_dash-component-suites/dash/dcc/async-datepicker.js HTTP/1.1[0m" 304 -
+2025-05-18 00:39:23,594 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:23] "[36mGET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1[0m" 304 -
+2025-05-18 00:39:23,599 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:23] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-05-18 00:39:23,602 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:23] "[36mGET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1[0m" 304 -
+2025-05-18 00:39:23,605 - src.dashboard - ERROR - Error fetching from API /api/celebrities: 403 Client Error: Forbidden for url: http://localhost:5000/api/celebrities
+2025-05-18 00:39:23,606 - src.dashboard - ERROR - Error fetching from API /api/tweets: 403 Client Error: Forbidden for url: http://localhost:5000/api/tweets?start_date=2025-05-11&end_date=2025-05-18
+2025-05-18 00:39:23,606 - src.dashboard - ERROR - Error in populate_dropdowns: 'NoneType' object is not iterable
+2025-05-18 00:39:23,624 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:23] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:39:23,639 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:23] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:39:24,314 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:24] "GET / HTTP/1.1" 200 -
+2025-05-18 00:39:24,416 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:24] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:39:24,419 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:24] "GET /_dash-layout HTTP/1.1" 200 -
+2025-05-18 00:39:24,421 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:24] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-05-18 00:39:24,422 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:24] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:39:24,428 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:24] "[36mGET /_dash-component-suites/dash/dcc/async-datepicker.js HTTP/1.1[0m" 304 -
+2025-05-18 00:39:24,429 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:24] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-05-18 00:39:24,429 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:24] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+2025-05-18 00:39:24,432 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:24] "[36mGET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1[0m" 304 -
+2025-05-18 00:39:24,435 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:24] "[36mGET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1[0m" 304 -
+2025-05-18 00:39:24,436 - src.dashboard - ERROR - Error fetching from API /api/celebrities: 403 Client Error: Forbidden for url: http://localhost:5000/api/celebrities
+2025-05-18 00:39:24,436 - src.dashboard - ERROR - Error in populate_dropdowns: 'NoneType' object is not iterable
+2025-05-18 00:39:24,436 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:24] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:39:24,436 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:24] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-05-18 00:39:24,437 - src.dashboard - ERROR - Error fetching from API /api/tweets: 403 Client Error: Forbidden for url: http://localhost:5000/api/tweets?start_date=2025-05-11&end_date=2025-05-18
+2025-05-18 00:39:24,452 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:24] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:39:24,998 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:24] "GET / HTTP/1.1" 200 -
+2025-05-18 00:39:25,089 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:25] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:39:25,092 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:25] "GET /_dash-layout HTTP/1.1" 200 -
+2025-05-18 00:39:25,093 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:25] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-05-18 00:39:25,095 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:25] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:39:25,100 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:25] "[36mGET /_dash-component-suites/dash/dcc/async-datepicker.js HTTP/1.1[0m" 304 -
+2025-05-18 00:39:25,101 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:25] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-05-18 00:39:25,101 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:25] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+2025-05-18 00:39:25,103 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:25] "[36mGET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1[0m" 304 -
+2025-05-18 00:39:25,107 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:25] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-05-18 00:39:25,108 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:25] "[36mGET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1[0m" 304 -
+2025-05-18 00:39:25,109 - src.dashboard - ERROR - Error fetching from API /api/celebrities: 403 Client Error: Forbidden for url: http://localhost:5000/api/celebrities
+2025-05-18 00:39:25,110 - src.dashboard - ERROR - Error in populate_dropdowns: 'NoneType' object is not iterable
+2025-05-18 00:39:25,110 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:25] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:39:25,110 - src.dashboard - ERROR - Error fetching from API /api/tweets: 403 Client Error: Forbidden for url: http://localhost:5000/api/tweets?start_date=2025-05-11&end_date=2025-05-18
+2025-05-18 00:39:25,124 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:25] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:39:38,877 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:38] "GET / HTTP/1.1" 200 -
+2025-05-18 00:39:38,944 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:38] "GET /_dash-component-suites/dash/deps/react@18.v3_0_4m1747503692.3.1.min.js HTTP/1.1" 200 -
+2025-05-18 00:39:38,945 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:38] "GET /_dash-component-suites/dash/deps/polyfill@7.v3_0_4m1747503692.12.1.min.js HTTP/1.1" 200 -
+2025-05-18 00:39:38,947 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:38] "GET /_dash-component-suites/dash/deps/prop-types@15.v3_0_4m1747503692.8.1.min.js HTTP/1.1" 200 -
+2025-05-18 00:39:38,948 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:38] "GET /_dash-component-suites/dash/deps/react-dom@18.v3_0_4m1747503692.3.1.min.js HTTP/1.1" 200 -
+2025-05-18 00:39:38,951 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:38] "GET /_dash-component-suites/dash/dcc/dash_core_components.v3_0_6m1747503692.js HTTP/1.1" 200 -
+2025-05-18 00:39:38,951 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:38] "GET /_dash-component-suites/dash/dash-renderer/build/dash_renderer.v3_0_4m1747503692.min.js HTTP/1.1" 200 -
+2025-05-18 00:39:38,951 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:38] "GET /_dash-component-suites/dash/html/dash_html_components.v3_0_2m1747503692.min.js HTTP/1.1" 200 -
+2025-05-18 00:39:38,952 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:38] "GET /_dash-component-suites/dash/dcc/dash_core_components-shared.v3_0_6m1747503692.js HTTP/1.1" 200 -
+2025-05-18 00:39:38,955 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:38] "GET /_dash-component-suites/dash/dash_table/bundle.v6_0_2m1747503692.js HTTP/1.1" 200 -
+2025-05-18 00:39:39,115 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:39] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:39:39,122 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:39] "GET /_dash-layout HTTP/1.1" 200 -
+2025-05-18 00:39:39,123 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:39] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-05-18 00:39:39,124 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:39] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:39:39,132 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:39] "GET /_dash-component-suites/dash/dcc/async-datepicker.js HTTP/1.1" 200 -
+2025-05-18 00:39:39,133 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:39] "GET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1" 200 -
+2025-05-18 00:39:39,135 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:39] "GET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1" 200 -
+2025-05-18 00:39:39,136 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:39] "GET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1" 200 -
+2025-05-18 00:39:39,136 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:39] "GET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1" 200 -
+2025-05-18 00:39:39,146 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:39] "GET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1" 200 -
+2025-05-18 00:39:39,151 - src.dashboard - ERROR - Error fetching from API /api/celebrities: 403 Client Error: Forbidden for url: http://localhost:5000/api/celebrities
+2025-05-18 00:39:39,151 - src.dashboard - ERROR - Error in populate_dropdowns: 'NoneType' object is not iterable
+2025-05-18 00:39:39,151 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:39] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:39:39,152 - src.dashboard - ERROR - Error fetching from API /api/tweets: 403 Client Error: Forbidden for url: http://localhost:5000/api/tweets?start_date=2025-05-11&end_date=2025-05-18
+2025-05-18 00:39:39,224 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:39:39] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:39:44,882 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:39:45,108 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:39:58,179 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:39:58,404 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:39:58,629 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:39:58,857 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:40:45,337 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:40:45,589 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:40:58,700 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:40:58,924 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:40:59,084 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:40:59,414 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:41:45,817 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:41:46,044 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:41:59,215 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:41:59,439 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:41:59,647 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:41:59,876 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:42:46,282 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:42:46,524 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:42:59,732 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:42:59,954 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:43:00,109 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:43:00,338 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:43:46,753 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:43:46,979 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:44:00,181 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:44:00,405 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:44:00,579 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:44:00,807 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:44:18,959 - src.data_processor - INFO - Processing data from the last 24 hours
+2025-05-18 00:44:19,189 - database - INFO - Retrieved 0 tweets
+2025-05-18 00:44:19,190 - src.data_processor - INFO - No recent tweets to process
+2025-05-18 00:44:47,253 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:44:47,560 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:45:00,667 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:45:00,891 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:45:01,039 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:45:01,270 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:45:47,873 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:45:48,111 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:46:01,114 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:46:01,338 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:46:01,502 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:46:01,801 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:46:25,204 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:25] "GET / HTTP/1.1" 200 -
+2025-05-18 00:46:25,398 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:25] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:46:25,400 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:25] "GET /_dash-layout HTTP/1.1" 200 -
+2025-05-18 00:46:25,402 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:25] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-05-18 00:46:25,404 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:25] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:46:25,411 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:25] "[36mGET /_dash-component-suites/dash/dcc/async-datepicker.js HTTP/1.1[0m" 304 -
+2025-05-18 00:46:25,411 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:25] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+2025-05-18 00:46:25,411 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:25] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-05-18 00:46:25,423 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:25] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-05-18 00:46:25,426 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:25] "[36mGET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1[0m" 304 -
+2025-05-18 00:46:25,427 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:25] "[36mGET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1[0m" 304 -
+2025-05-18 00:46:25,427 - src.dashboard - ERROR - Error fetching from API /api/celebrities: 403 Client Error: Forbidden for url: http://localhost:5000/api/celebrities
+2025-05-18 00:46:25,429 - src.dashboard - ERROR - Error in populate_dropdowns: 'NoneType' object is not iterable
+2025-05-18 00:46:25,439 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:25] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:46:25,440 - src.dashboard - ERROR - Error fetching from API /api/tweets: 403 Client Error: Forbidden for url: http://localhost:5000/api/tweets?start_date=2025-05-11&end_date=2025-05-18
+2025-05-18 00:46:25,467 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:25] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:46:26,062 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:26] "GET / HTTP/1.1" 200 -
+2025-05-18 00:46:26,173 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:26] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:46:26,175 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:26] "GET /_dash-layout HTTP/1.1" 200 -
+2025-05-18 00:46:26,177 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:26] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-05-18 00:46:26,178 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:26] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:46:26,183 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:26] "[36mGET /_dash-component-suites/dash/dcc/async-datepicker.js HTTP/1.1[0m" 304 -
+2025-05-18 00:46:26,184 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:26] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+2025-05-18 00:46:26,185 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:26] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-05-18 00:46:26,188 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:26] "[36mGET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1[0m" 304 -
+2025-05-18 00:46:26,188 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:26] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-05-18 00:46:26,189 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:26] "[36mGET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1[0m" 304 -
+2025-05-18 00:46:26,190 - src.dashboard - ERROR - Error fetching from API /api/celebrities: 403 Client Error: Forbidden for url: http://localhost:5000/api/celebrities
+2025-05-18 00:46:26,190 - src.dashboard - ERROR - Error in populate_dropdowns: 'NoneType' object is not iterable
+2025-05-18 00:46:26,191 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:26] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:46:26,191 - src.dashboard - ERROR - Error fetching from API /api/tweets: 403 Client Error: Forbidden for url: http://localhost:5000/api/tweets?start_date=2025-05-11&end_date=2025-05-18
+2025-05-18 00:46:26,206 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:26] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:46:26,730 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:26] "GET / HTTP/1.1" 200 -
+2025-05-18 00:46:26,822 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:26] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:46:26,825 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:26] "GET /_dash-layout HTTP/1.1" 200 -
+2025-05-18 00:46:26,826 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:26] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-05-18 00:46:26,827 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:26] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:46:26,833 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:26] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-05-18 00:46:26,833 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:26] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+2025-05-18 00:46:26,834 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:26] "[36mGET /_dash-component-suites/dash/dcc/async-datepicker.js HTTP/1.1[0m" 304 -
+2025-05-18 00:46:26,837 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:26] "[36mGET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1[0m" 304 -
+2025-05-18 00:46:26,839 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:26] "[36mGET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1[0m" 304 -
+2025-05-18 00:46:26,839 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:26] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-05-18 00:46:26,843 - src.dashboard - ERROR - Error fetching from API /api/celebrities: 403 Client Error: Forbidden for url: http://localhost:5000/api/celebrities
+2025-05-18 00:46:26,843 - src.dashboard - ERROR - Error in populate_dropdowns: 'NoneType' object is not iterable
+2025-05-18 00:46:26,843 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:26] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:46:26,843 - src.dashboard - ERROR - Error fetching from API /api/tweets: 403 Client Error: Forbidden for url: http://localhost:5000/api/tweets?start_date=2025-05-11&end_date=2025-05-18
+2025-05-18 00:46:26,858 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:26] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:46:26,925 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:26] "GET / HTTP/1.1" 200 -
+2025-05-18 00:46:26,997 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:26] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:46:27,000 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:27] "GET /_dash-layout HTTP/1.1" 200 -
+2025-05-18 00:46:27,001 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:27] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-05-18 00:46:27,003 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:27] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:46:27,007 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:27] "[36mGET /_dash-component-suites/dash/dcc/async-datepicker.js HTTP/1.1[0m" 304 -
+2025-05-18 00:46:27,007 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:27] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+2025-05-18 00:46:27,008 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:27] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-05-18 00:46:27,011 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:27] "[36mGET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1[0m" 304 -
+2025-05-18 00:46:27,012 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:27] "[36mGET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1[0m" 304 -
+2025-05-18 00:46:27,013 - src.dashboard - ERROR - Error fetching from API /api/tweets: 403 Client Error: Forbidden for url: http://localhost:5000/api/tweets?start_date=2025-05-11&end_date=2025-05-18
+2025-05-18 00:46:27,020 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:27] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-05-18 00:46:27,027 - src.dashboard - ERROR - Error fetching from API /api/celebrities: 403 Client Error: Forbidden for url: http://localhost:5000/api/celebrities
+2025-05-18 00:46:27,028 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:27] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:46:27,028 - src.dashboard - ERROR - Error in populate_dropdowns: 'NoneType' object is not iterable
+2025-05-18 00:46:27,028 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:27] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:46:27,126 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:27] "GET / HTTP/1.1" 200 -
+2025-05-18 00:46:27,189 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:27] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:46:27,192 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:27] "GET /_dash-layout HTTP/1.1" 200 -
+2025-05-18 00:46:27,193 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:27] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-05-18 00:46:27,194 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:27] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:46:27,198 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:27] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+2025-05-18 00:46:27,200 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:27] "[36mGET /_dash-component-suites/dash/dcc/async-datepicker.js HTTP/1.1[0m" 304 -
+2025-05-18 00:46:27,201 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:27] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-05-18 00:46:27,202 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:27] "[36mGET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1[0m" 304 -
+2025-05-18 00:46:27,204 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:27] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-05-18 00:46:27,205 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:27] "[36mGET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1[0m" 304 -
+2025-05-18 00:46:27,206 - src.dashboard - ERROR - Error fetching from API /api/tweets: 403 Client Error: Forbidden for url: http://localhost:5000/api/tweets?start_date=2025-05-11&end_date=2025-05-18
+2025-05-18 00:46:27,208 - src.dashboard - ERROR - Error fetching from API /api/celebrities: 403 Client Error: Forbidden for url: http://localhost:5000/api/celebrities
+2025-05-18 00:46:27,221 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:27] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:46:27,221 - src.dashboard - ERROR - Error in populate_dropdowns: 'NoneType' object is not iterable
+2025-05-18 00:46:27,221 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:46:27] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:46:48,393 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:46:48,630 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:47:01,564 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:47:01,794 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:47:48,871 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:47:49,108 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:48:02,066 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:48:02,290 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:48:49,370 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:48:49,651 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:49:02,554 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:49:02,777 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:49:49,888 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:49:50,123 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:50:03,001 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:50:03,222 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:50:30,676 - __main__ - INFO - Starting Memecoin Tweet Tracker
+2025-05-18 00:50:34,407 - database - INFO - Successfully connected to MongoDB
+2025-05-18 00:50:36,148 - database - INFO - Database handler initialized
+2025-05-18 00:50:36,148 - src.notifcation_service - INFO - Notification service initialized with channels: 
+2025-05-18 00:50:36,148 - src.data_processor - INFO - Data processor initialized
+2025-05-18 00:50:36,455 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:50:36,762 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:50:36,762 - twitter_listener - INFO - Twitter listener initialized with 0 celebrities
+2025-05-18 00:50:36,763 - twitter_listener - INFO - Starting Twitter listener stream
+2025-05-18 00:50:36,764 - src.api - INFO - Starting API server on localhost:5000
+2025-05-18 00:50:36,766 - src.dashboard - INFO - Starting Dashboard server on localhost:8050
+2025-05-18 00:50:36,767 - dash.dash - INFO - Dash is running on http://localhost:8050/
+
+2025-05-18 00:50:36,775 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2025-05-18 00:50:36,775 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-18 00:50:37,068 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:50:37,300 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:50:41,961 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:41] "GET / HTTP/1.1" 200 -
+2025-05-18 00:50:42,069 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:42] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:50:42,072 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:42] "GET /_dash-layout HTTP/1.1" 200 -
+2025-05-18 00:50:42,073 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:42] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-05-18 00:50:42,075 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:42] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:50:42,081 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:42] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:42,082 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:42] "[36mGET /_dash-component-suites/dash/dcc/async-datepicker.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:42,082 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:42] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:42,087 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:42] "[36mGET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:42,088 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:42] "[36mGET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:42,091 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:42] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:42,092 - src.dashboard - ERROR - Error fetching from API /api/tweets: 403 Client Error: Forbidden for url: http://localhost:5000/api/tweets?start_date=2025-05-11&end_date=2025-05-18
+2025-05-18 00:50:42,101 - src.dashboard - ERROR - Error fetching from API /api/celebrities: 403 Client Error: Forbidden for url: http://localhost:5000/api/celebrities
+2025-05-18 00:50:42,116 - src.dashboard - ERROR - Error in populate_dropdowns: 'NoneType' object is not iterable
+2025-05-18 00:50:42,126 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:42] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:50:42,126 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:42] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:50:42,664 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:42] "GET / HTTP/1.1" 200 -
+2025-05-18 00:50:42,772 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:42] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:50:42,776 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:42] "GET /_dash-layout HTTP/1.1" 200 -
+2025-05-18 00:50:42,780 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:42] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-05-18 00:50:42,782 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:42] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:50:42,785 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:42] "[36mGET /_dash-component-suites/dash/dcc/async-datepicker.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:42,787 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:42] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:42,789 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:42] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:42,789 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:42] "[36mGET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:42,790 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:42] "[36mGET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:42,792 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:42] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:42,795 - src.dashboard - ERROR - Error fetching from API /api/celebrities: 403 Client Error: Forbidden for url: http://localhost:5000/api/celebrities
+2025-05-18 00:50:42,795 - src.dashboard - ERROR - Error in populate_dropdowns: 'NoneType' object is not iterable
+2025-05-18 00:50:42,795 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:42] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:50:42,795 - src.dashboard - ERROR - Error fetching from API /api/tweets: 403 Client Error: Forbidden for url: http://localhost:5000/api/tweets?start_date=2025-05-11&end_date=2025-05-18
+2025-05-18 00:50:42,809 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:42] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:50:43,380 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:43] "GET / HTTP/1.1" 200 -
+2025-05-18 00:50:43,474 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:43] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:50:43,478 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:43] "GET /_dash-layout HTTP/1.1" 200 -
+2025-05-18 00:50:43,480 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:43] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-05-18 00:50:43,482 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:43] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:50:43,488 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:43] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:43,489 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:43] "[36mGET /_dash-component-suites/dash/dcc/async-datepicker.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:43,491 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:43] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:43,493 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:43] "[36mGET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:43,496 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:43] "[36mGET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:43,496 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:43] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:43,498 - src.dashboard - ERROR - Error fetching from API /api/celebrities: 403 Client Error: Forbidden for url: http://localhost:5000/api/celebrities
+2025-05-18 00:50:43,498 - src.dashboard - ERROR - Error in populate_dropdowns: 'NoneType' object is not iterable
+2025-05-18 00:50:43,499 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:43] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:50:43,499 - src.dashboard - ERROR - Error fetching from API /api/tweets: 403 Client Error: Forbidden for url: http://localhost:5000/api/tweets?start_date=2025-05-11&end_date=2025-05-18
+2025-05-18 00:50:43,513 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:43] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:50:44,017 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "GET / HTTP/1.1" 200 -
+2025-05-18 00:50:44,109 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:50:44,112 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "GET /_dash-layout HTTP/1.1" 200 -
+2025-05-18 00:50:44,113 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-05-18 00:50:44,115 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:50:44,118 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:44,118 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:44,119 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "[36mGET /_dash-component-suites/dash/dcc/async-datepicker.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:44,123 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "[36mGET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:44,124 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "[36mGET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:44,125 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:44,128 - src.dashboard - ERROR - Error fetching from API /api/celebrities: 403 Client Error: Forbidden for url: http://localhost:5000/api/celebrities
+2025-05-18 00:50:44,128 - src.dashboard - ERROR - Error fetching from API /api/tweets: 403 Client Error: Forbidden for url: http://localhost:5000/api/tweets?start_date=2025-05-11&end_date=2025-05-18
+2025-05-18 00:50:44,136 - src.dashboard - ERROR - Error in populate_dropdowns: 'NoneType' object is not iterable
+2025-05-18 00:50:44,142 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:50:44,142 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:50:44,242 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "GET / HTTP/1.1" 200 -
+2025-05-18 00:50:44,316 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:50:44,317 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "GET /_dash-layout HTTP/1.1" 200 -
+2025-05-18 00:50:44,318 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-05-18 00:50:44,320 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:50:44,324 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "[36mGET /_dash-component-suites/dash/dcc/async-datepicker.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:44,325 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:44,326 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:44,327 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "[36mGET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:44,330 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "[36mGET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:44,331 - src.dashboard - ERROR - Error fetching from API /api/celebrities: 403 Client Error: Forbidden for url: http://localhost:5000/api/celebrities
+2025-05-18 00:50:44,332 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:44,332 - src.dashboard - ERROR - Error in populate_dropdowns: 'NoneType' object is not iterable
+2025-05-18 00:50:44,332 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:50:44,333 - src.dashboard - ERROR - Error fetching from API /api/tweets: 403 Client Error: Forbidden for url: http://localhost:5000/api/tweets?start_date=2025-05-11&end_date=2025-05-18
+2025-05-18 00:50:44,347 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:50:44,409 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "GET / HTTP/1.1" 200 -
+2025-05-18 00:50:44,473 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:50:44,479 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "GET /_dash-layout HTTP/1.1" 200 -
+2025-05-18 00:50:44,481 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-05-18 00:50:44,484 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:50:44,489 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:44,490 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "[36mGET /_dash-component-suites/dash/dcc/async-datepicker.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:44,492 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:44,494 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:44,494 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "[36mGET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:44,494 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "[36mGET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:44,496 - src.dashboard - ERROR - Error fetching from API /api/celebrities: 403 Client Error: Forbidden for url: http://localhost:5000/api/celebrities
+2025-05-18 00:50:44,496 - src.dashboard - ERROR - Error in populate_dropdowns: 'NoneType' object is not iterable
+2025-05-18 00:50:44,496 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:50:44,496 - src.dashboard - ERROR - Error fetching from API /api/tweets: 403 Client Error: Forbidden for url: http://localhost:5000/api/tweets?start_date=2025-05-11&end_date=2025-05-18
+2025-05-18 00:50:44,511 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:50:44,594 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "GET / HTTP/1.1" 200 -
+2025-05-18 00:50:44,665 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:50:44,669 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "GET /_dash-layout HTTP/1.1" 200 -
+2025-05-18 00:50:44,670 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-05-18 00:50:44,672 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:50:44,677 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "[36mGET /_dash-component-suites/dash/dcc/async-datepicker.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:44,677 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:44,678 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:44,680 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "[36mGET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:44,681 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:44,682 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "[36mGET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:44,683 - src.dashboard - ERROR - Error fetching from API /api/celebrities: 403 Client Error: Forbidden for url: http://localhost:5000/api/celebrities
+2025-05-18 00:50:44,683 - src.dashboard - ERROR - Error in populate_dropdowns: 'NoneType' object is not iterable
+2025-05-18 00:50:44,683 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:50:44,683 - src.dashboard - ERROR - Error fetching from API /api/tweets: 403 Client Error: Forbidden for url: http://localhost:5000/api/tweets?start_date=2025-05-11&end_date=2025-05-18
+2025-05-18 00:50:44,698 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:50:44,765 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "GET / HTTP/1.1" 200 -
+2025-05-18 00:50:44,855 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:50:44,858 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "GET /_dash-layout HTTP/1.1" 200 -
+2025-05-18 00:50:44,859 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-05-18 00:50:44,863 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:50:44,866 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:44,866 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "[36mGET /_dash-component-suites/dash/dcc/async-datepicker.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:44,867 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:44,868 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "[36mGET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:44,872 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "[36mGET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:44,872 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:44,873 - src.dashboard - ERROR - Error fetching from API /api/celebrities: 403 Client Error: Forbidden for url: http://localhost:5000/api/celebrities
+2025-05-18 00:50:44,873 - src.dashboard - ERROR - Error in populate_dropdowns: 'NoneType' object is not iterable
+2025-05-18 00:50:44,873 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:50:44,873 - src.dashboard - ERROR - Error fetching from API /api/tweets: 403 Client Error: Forbidden for url: http://localhost:5000/api/tweets?start_date=2025-05-11&end_date=2025-05-18
+2025-05-18 00:50:44,888 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:50:44,926 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:44] "GET / HTTP/1.1" 200 -
+2025-05-18 00:50:45,013 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:45] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:50:45,016 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:45] "GET /_dash-layout HTTP/1.1" 200 -
+2025-05-18 00:50:45,017 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:45] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-05-18 00:50:45,020 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:45] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:50:45,023 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:45] "[36mGET /_dash-component-suites/dash/dcc/async-datepicker.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:45,027 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:45] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:45,028 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:45] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:45,030 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:45] "[36mGET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:45,031 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:45] "[36mGET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:45,033 - src.dashboard - ERROR - Error fetching from API /api/celebrities: 403 Client Error: Forbidden for url: http://localhost:5000/api/celebrities
+2025-05-18 00:50:45,033 - src.dashboard - ERROR - Error in populate_dropdowns: 'NoneType' object is not iterable
+2025-05-18 00:50:45,034 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:45] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:45,034 - src.dashboard - ERROR - Error fetching from API /api/tweets: 403 Client Error: Forbidden for url: http://localhost:5000/api/tweets?start_date=2025-05-11&end_date=2025-05-18
+2025-05-18 00:50:45,034 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:45] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:50:45,049 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:45] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:50:48,922 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:48] "GET / HTTP/1.1" 200 -
+2025-05-18 00:50:49,012 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:50:49,015 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "GET /_dash-layout HTTP/1.1" 200 -
+2025-05-18 00:50:49,016 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-05-18 00:50:49,017 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:50:49,024 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "[36mGET /_dash-component-suites/dash/dcc/async-datepicker.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:49,025 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:49,027 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:49,029 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "[36mGET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:49,031 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "[36mGET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:49,032 - src.dashboard - ERROR - Error fetching from API /api/celebrities: 403 Client Error: Forbidden for url: http://localhost:5000/api/celebrities
+2025-05-18 00:50:49,032 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:49,032 - src.dashboard - ERROR - Error in populate_dropdowns: 'NoneType' object is not iterable
+2025-05-18 00:50:49,032 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:50:49,033 - src.dashboard - ERROR - Error fetching from API /api/tweets: 403 Client Error: Forbidden for url: http://localhost:5000/api/tweets?start_date=2025-05-11&end_date=2025-05-18
+2025-05-18 00:50:49,047 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:50:49,081 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "GET / HTTP/1.1" 200 -
+2025-05-18 00:50:49,152 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:50:49,155 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "GET /_dash-layout HTTP/1.1" 200 -
+2025-05-18 00:50:49,156 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-05-18 00:50:49,157 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:50:49,163 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "[36mGET /_dash-component-suites/dash/dcc/async-datepicker.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:49,163 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:49,163 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:49,167 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "[36mGET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:49,168 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "[36mGET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:49,168 - src.dashboard - ERROR - Error fetching from API /api/celebrities: 403 Client Error: Forbidden for url: http://localhost:5000/api/celebrities
+2025-05-18 00:50:49,169 - src.dashboard - ERROR - Error in populate_dropdowns: 'NoneType' object is not iterable
+2025-05-18 00:50:49,169 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:50:49,169 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:49,170 - src.dashboard - ERROR - Error fetching from API /api/tweets: 403 Client Error: Forbidden for url: http://localhost:5000/api/tweets?start_date=2025-05-11&end_date=2025-05-18
+2025-05-18 00:50:49,185 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:50:49,256 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "GET / HTTP/1.1" 200 -
+2025-05-18 00:50:49,323 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:50:49,326 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "GET /_dash-layout HTTP/1.1" 200 -
+2025-05-18 00:50:49,327 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-05-18 00:50:49,330 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:50:49,334 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "[36mGET /_dash-component-suites/dash/dcc/async-datepicker.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:49,335 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:49,335 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:49,338 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "[36mGET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:49,340 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:49,341 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "[36mGET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:49,342 - src.dashboard - ERROR - Error fetching from API /api/celebrities: 403 Client Error: Forbidden for url: http://localhost:5000/api/celebrities
+2025-05-18 00:50:49,343 - src.dashboard - ERROR - Error fetching from API /api/tweets: 403 Client Error: Forbidden for url: http://localhost:5000/api/tweets?start_date=2025-05-11&end_date=2025-05-18
+2025-05-18 00:50:49,343 - src.dashboard - ERROR - Error in populate_dropdowns: 'NoneType' object is not iterable
+2025-05-18 00:50:49,350 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:50:49,357 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:50:49,419 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "GET / HTTP/1.1" 200 -
+2025-05-18 00:50:49,488 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:50:49,491 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "GET /_dash-layout HTTP/1.1" 200 -
+2025-05-18 00:50:49,491 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-05-18 00:50:49,494 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:50:49,498 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "[36mGET /_dash-component-suites/dash/dcc/async-datepicker.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:49,498 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:49,499 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:49,501 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "[36mGET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:49,502 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:49,502 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "[36mGET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:49,505 - src.dashboard - ERROR - Error fetching from API /api/celebrities: 403 Client Error: Forbidden for url: http://localhost:5000/api/celebrities
+2025-05-18 00:50:49,505 - src.dashboard - ERROR - Error in populate_dropdowns: 'NoneType' object is not iterable
+2025-05-18 00:50:49,505 - src.dashboard - ERROR - Error fetching from API /api/tweets: 403 Client Error: Forbidden for url: http://localhost:5000/api/tweets?start_date=2025-05-11&end_date=2025-05-18
+2025-05-18 00:50:49,505 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:50:49,520 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:50:49,582 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "GET / HTTP/1.1" 200 -
+2025-05-18 00:50:49,645 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:50:49,650 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "GET /_dash-layout HTTP/1.1" 200 -
+2025-05-18 00:50:49,651 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-05-18 00:50:49,654 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:50:49,658 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:49,658 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:49,658 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "[36mGET /_dash-component-suites/dash/dcc/async-datepicker.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:49,661 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "[36mGET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:49,661 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "[36mGET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:49,664 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:49,665 - src.dashboard - ERROR - Error fetching from API /api/celebrities: 403 Client Error: Forbidden for url: http://localhost:5000/api/celebrities
+2025-05-18 00:50:49,666 - src.dashboard - ERROR - Error in populate_dropdowns: 'NoneType' object is not iterable
+2025-05-18 00:50:49,666 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:50:49,666 - src.dashboard - ERROR - Error fetching from API /api/tweets: 403 Client Error: Forbidden for url: http://localhost:5000/api/tweets?start_date=2025-05-11&end_date=2025-05-18
+2025-05-18 00:50:49,680 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:50:49,742 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "GET / HTTP/1.1" 200 -
+2025-05-18 00:50:49,810 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:50:49,813 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "GET /_dash-layout HTTP/1.1" 200 -
+2025-05-18 00:50:49,814 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-05-18 00:50:49,815 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:50:49,819 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:49,820 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:49,821 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "[36mGET /_dash-component-suites/dash/dcc/async-datepicker.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:49,822 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "[36mGET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:49,824 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:49,824 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "[36mGET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:49,827 - src.dashboard - ERROR - Error fetching from API /api/celebrities: 403 Client Error: Forbidden for url: http://localhost:5000/api/celebrities
+2025-05-18 00:50:49,827 - src.dashboard - ERROR - Error in populate_dropdowns: 'NoneType' object is not iterable
+2025-05-18 00:50:49,827 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:50:49,828 - src.dashboard - ERROR - Error fetching from API /api/tweets: 403 Client Error: Forbidden for url: http://localhost:5000/api/tweets?start_date=2025-05-11&end_date=2025-05-18
+2025-05-18 00:50:49,841 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:50:49,930 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "GET / HTTP/1.1" 200 -
+2025-05-18 00:50:49,993 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:50:49,996 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "GET /_dash-layout HTTP/1.1" 200 -
+2025-05-18 00:50:49,997 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-05-18 00:50:49,998 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:49] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:50:50,004 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:50] "[36mGET /_dash-component-suites/dash/dcc/async-datepicker.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:50,005 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:50] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:50,005 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:50] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:50,006 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:50] "[36mGET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:50,011 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:50] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:50,012 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:50] "[36mGET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:50,013 - src.dashboard - ERROR - Error fetching from API /api/celebrities: 403 Client Error: Forbidden for url: http://localhost:5000/api/celebrities
+2025-05-18 00:50:50,013 - src.dashboard - ERROR - Error in populate_dropdowns: 'NoneType' object is not iterable
+2025-05-18 00:50:50,013 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:50] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:50:50,013 - src.dashboard - ERROR - Error fetching from API /api/tweets: 403 Client Error: Forbidden for url: http://localhost:5000/api/tweets?start_date=2025-05-11&end_date=2025-05-18
+2025-05-18 00:50:50,031 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:50] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:50:50,362 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:50:50,607 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:50:51,853 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:51] "GET / HTTP/1.1" 200 -
+2025-05-18 00:50:51,962 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:51] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:50:51,967 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:51] "GET /_dash-layout HTTP/1.1" 200 -
+2025-05-18 00:50:51,968 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:51] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-05-18 00:50:51,969 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:51] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:50:51,980 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:51] "[36mGET /_dash-component-suites/dash/dcc/async-datepicker.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:51,981 - src.dashboard - ERROR - Error fetching from API /api/tweets: 403 Client Error: Forbidden for url: http://localhost:5000/api/tweets?start_date=2025-05-11&end_date=2025-05-18
+2025-05-18 00:50:51,981 - src.dashboard - ERROR - Error fetching from API /api/celebrities: 403 Client Error: Forbidden for url: http://localhost:5000/api/celebrities
+2025-05-18 00:50:51,988 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:51] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:51,995 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:51] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:52,002 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:52] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:50:52,002 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:52] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:52,002 - src.dashboard - ERROR - Error in populate_dropdowns: 'NoneType' object is not iterable
+2025-05-18 00:50:52,003 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:52] "[36mGET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:52,004 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:52] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:50:52,006 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:52] "[36mGET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:52,415 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:52] "GET / HTTP/1.1" 200 -
+2025-05-18 00:50:52,502 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:52] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:50:52,505 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:52] "GET /_dash-layout HTTP/1.1" 200 -
+2025-05-18 00:50:52,506 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:52] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-05-18 00:50:52,507 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:52] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:50:52,512 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:52] "[36mGET /_dash-component-suites/dash/dcc/async-datepicker.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:52,512 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:52] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:52,514 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:52] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:52,515 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:52] "[36mGET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:52,518 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:52] "[36mGET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:52,519 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:52] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:52,521 - src.dashboard - ERROR - Error fetching from API /api/celebrities: 403 Client Error: Forbidden for url: http://localhost:5000/api/celebrities
+2025-05-18 00:50:52,521 - src.dashboard - ERROR - Error in populate_dropdowns: 'NoneType' object is not iterable
+2025-05-18 00:50:52,521 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:52] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:50:52,521 - src.dashboard - ERROR - Error fetching from API /api/tweets: 403 Client Error: Forbidden for url: http://localhost:5000/api/tweets?start_date=2025-05-11&end_date=2025-05-18
+2025-05-18 00:50:52,536 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:52] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:50:53,113 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:53] "GET / HTTP/1.1" 200 -
+2025-05-18 00:50:53,209 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:53] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:50:53,212 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:53] "GET /_dash-layout HTTP/1.1" 200 -
+2025-05-18 00:50:53,213 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:53] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-05-18 00:50:53,215 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:53] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:50:53,219 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:53] "[36mGET /_dash-component-suites/dash/dcc/async-datepicker.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:53,220 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:53] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:53,224 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:53] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:53,224 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:53] "[36mGET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:53,229 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:53] "[36mGET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:53,231 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:53] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-05-18 00:50:53,232 - src.dashboard - ERROR - Error fetching from API /api/celebrities: 403 Client Error: Forbidden for url: http://localhost:5000/api/celebrities
+2025-05-18 00:50:53,232 - src.dashboard - ERROR - Error in populate_dropdowns: 'NoneType' object is not iterable
+2025-05-18 00:50:53,232 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:53] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:50:53,232 - src.dashboard - ERROR - Error fetching from API /api/tweets: 403 Client Error: Forbidden for url: http://localhost:5000/api/tweets?start_date=2025-05-11&end_date=2025-05-18
+2025-05-18 00:50:53,246 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:50:53] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:51:03,489 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:51:03,716 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:51:37,546 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:51:37,795 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:51:50,836 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:51:51,061 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:52:03,938 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:52:04,212 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:52:50,855 - __main__ - INFO - Starting Memecoin Tweet Tracker
+2025-05-18 00:52:54,790 - database - INFO - Successfully connected to MongoDB
+2025-05-18 00:52:56,538 - database - INFO - Database handler initialized
+2025-05-18 00:52:56,538 - src.notifcation_service - INFO - Notification service initialized with channels: 
+2025-05-18 00:52:56,538 - src.data_processor - INFO - Data processor initialized
+2025-05-18 00:52:56,846 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:52:57,153 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:52:57,153 - twitter_listener - INFO - Twitter listener initialized with 0 celebrities
+2025-05-18 00:52:57,153 - twitter_listener - INFO - Starting Twitter listener stream
+2025-05-18 00:52:57,153 - src.api - INFO - Starting API server on localhost:5001
+2025-05-18 00:52:57,156 - src.dashboard - INFO - Starting Dashboard server on localhost:8050
+2025-05-18 00:52:57,158 - dash.dash - INFO - Dash is running on http://localhost:8050/
+
+2025-05-18 00:52:57,165 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001
+2025-05-18 00:52:57,165 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8050
+2025-05-18 00:52:57,165 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-18 00:52:57,165 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-18 00:52:57,412 - database - INFO - Retrieved 0 celebrities
+2025-05-18 00:52:57,633 - database - INFO - Retrieved 0 keywords
+2025-05-18 00:53:00,311 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:53:00] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-18 00:53:00,543 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:53:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-18 00:53:10,702 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:53:10] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-18 00:53:10,920 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:53:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-18 00:54:06,268 - __main__ - INFO - Starting Memecoin Tweet Tracker
+2025-05-18 00:54:09,850 - database - INFO - Successfully connected to MongoDB
+2025-05-18 00:54:11,845 - database - INFO - Database handler initialized
+2025-05-18 00:54:12,354 - database - INFO - Added celebrity elonmusk
+2025-05-18 00:54:12,796 - database - INFO - Added celebrity mcuban
+2025-05-18 00:54:13,238 - database - INFO - Added celebrity snoopdogg
+2025-05-18 00:54:13,707 - database - INFO - Added keyword DOGE
+2025-05-18 00:54:14,147 - database - INFO - Added keyword SHIB
+2025-05-18 00:54:14,588 - database - INFO - Added keyword PEPE
+2025-05-18 00:54:15,028 - database - INFO - Added keyword crypto
+2025-05-18 00:54:15,469 - database - INFO - Added keyword memecoin
+2025-05-18 00:54:15,915 - database - INFO - Added tweet 1
+2025-05-18 00:54:16,361 - database - INFO - Added tweet 2
+2025-05-18 00:54:16,361 - database - INFO - Test data initialized successfully
+2025-05-18 00:54:16,361 - src.notifcation_service - INFO - Notification service initialized with channels: 
+2025-05-18 00:54:16,361 - src.data_processor - INFO - Data processor initialized
+2025-05-18 00:54:16,580 - database - INFO - Retrieved 3 celebrities
+2025-05-18 00:54:17,212 - database - INFO - Updated celebrity elonmusk
+2025-05-18 00:54:17,734 - database - INFO - Updated celebrity mcuban
+2025-05-18 00:54:18,252 - database - INFO - Updated celebrity snoopdogg
+2025-05-18 00:54:18,471 - database - INFO - Retrieved 5 keywords
+2025-05-18 00:54:18,472 - twitter_listener - INFO - Twitter listener initialized with 3 celebrities
+2025-05-18 00:54:18,472 - twitter_listener - INFO - Starting Twitter listener stream
+2025-05-18 00:54:18,473 - src.api - INFO - Starting API server on localhost:5001
+2025-05-18 00:54:18,478 - src.dashboard - INFO - Starting Dashboard server on localhost:8050
+2025-05-18 00:54:18,481 - dash.dash - INFO - Dash is running on http://localhost:8050/
+
+2025-05-18 00:54:18,487 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8050
+2025-05-18 00:54:18,487 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-18 00:54:18,487 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001
+2025-05-18 00:54:18,488 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-18 00:54:18,779 - twitter_listener - ERROR - Error fetching tweets for elonmusk: 400 Bad Request
+The `start_time` query parameter value [2025-05-18T00:54:18.478763] is not a valid RFC3339 date-time.
+2025-05-18 00:54:19,060 - twitter_listener - ERROR - Error fetching tweets for mcuban: 429 Too Many Requests
+Too Many Requests
+2025-05-18 00:54:19,340 - twitter_listener - ERROR - Error fetching tweets for snoopdogg: 429 Too Many Requests
+Too Many Requests
+2025-05-18 00:54:19,559 - database - INFO - Retrieved 3 celebrities
+2025-05-18 00:54:19,779 - database - INFO - Retrieved 5 keywords
+2025-05-18 00:54:27,146 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:54:27] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-18 00:54:27,837 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:54:27] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-18 00:54:28,095 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:54:28] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-18 00:54:28,241 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:54:28] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-18 00:54:28,409 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:54:28] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-18 00:54:28,575 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:54:28] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-18 00:54:28,742 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:54:28] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-18 00:54:28,925 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:54:28] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-18 00:54:33,061 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:54:33] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-18 00:55:31,716 - __main__ - INFO - Starting Memecoin Tweet Tracker
+2025-05-18 00:55:35,720 - database - INFO - Successfully connected to MongoDB
+2025-05-18 00:55:37,270 - database - INFO - Database handler initialized
+2025-05-18 00:55:37,511 - database - INFO - Celebrity elonmusk already exists, updating
+2025-05-18 00:55:38,126 - database - INFO - Celebrity mcuban already exists, updating
+2025-05-18 00:55:38,662 - database - INFO - Celebrity snoopdogg already exists, updating
+2025-05-18 00:55:39,150 - database - INFO - Keyword DOGE already exists
+2025-05-18 00:55:39,457 - database - INFO - Keyword SHIB already exists
+2025-05-18 00:55:39,685 - database - INFO - Keyword PEPE already exists
+2025-05-18 00:55:39,914 - database - INFO - Keyword crypto already exists
+2025-05-18 00:55:40,174 - database - INFO - Keyword memecoin already exists
+2025-05-18 00:55:40,481 - database - INFO - Tweet 1 already exists, updating
+2025-05-18 00:55:40,942 - database - INFO - Tweet 2 already exists, updating
+2025-05-18 00:55:41,198 - database - INFO - Test data initialized successfully
+2025-05-18 00:55:41,198 - src.notifcation_service - INFO - Notification service initialized with channels: 
+2025-05-18 00:55:41,198 - src.data_processor - INFO - Data processor initialized
+2025-05-18 00:55:41,428 - database - INFO - Retrieved 3 celebrities
+2025-05-18 00:55:41,657 - database - INFO - Retrieved 5 keywords
+2025-05-18 00:55:41,657 - twitter_listener - INFO - Twitter listener initialized with 3 celebrities
+2025-05-18 00:55:41,657 - twitter_listener - INFO - Starting Twitter listener stream
+2025-05-18 00:55:41,657 - src.api - INFO - Starting API server on localhost:5001
+2025-05-18 00:55:41,660 - src.dashboard - INFO - Starting Dashboard server on localhost:8050
+2025-05-18 00:55:41,661 - dash.dash - INFO - Dash is running on http://localhost:8050/
+
+2025-05-18 00:55:41,669 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:8050
+2025-05-18 00:55:41,669 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5001
+2025-05-18 00:55:41,669 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-18 00:55:41,669 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-18 00:55:42,124 - twitter_listener - ERROR - Error fetching tweets for elonmusk: 429 Too Many Requests
+Too Many Requests
+2025-05-18 00:55:42,530 - twitter_listener - ERROR - Error fetching tweets for mcuban: 429 Too Many Requests
+Too Many Requests
+2025-05-18 00:55:42,844 - twitter_listener - ERROR - Error fetching tweets for snoopdogg: 400 Bad Request
+The `start_time` query parameter value [2025-05-18T00:55:41.657999] is not a valid RFC3339 date-time.
+2025-05-18 00:55:43,144 - database - INFO - Retrieved 3 celebrities
+2025-05-18 00:55:43,452 - database - INFO - Retrieved 5 keywords
+2025-05-18 00:56:03,528 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:56:03] "[32mGET / HTTP/1.1[0m" 302 -
+2025-05-18 00:56:03,541 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:56:03] "GET / HTTP/1.1" 200 -
+2025-05-18 00:56:03,683 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:56:03] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:56:03,684 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:56:03] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-05-18 00:56:03,686 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:56:03] "GET /_dash-layout HTTP/1.1" 200 -
+2025-05-18 00:56:03,695 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:56:03] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+2025-05-18 00:56:03,695 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:56:03] "[36mGET /_dash-component-suites/dash/dcc/async-datepicker.js HTTP/1.1[0m" 304 -
+2025-05-18 00:56:03,696 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:56:03] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-05-18 00:56:03,703 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:56:03] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-05-18 00:56:03,706 - src.api - ERROR - Error fetching tweets: DatabaseHandler.get_tweets() got an unexpected keyword argument 'celebrity'
+2025-05-18 00:56:03,707 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:56:03] "[35m[1mGET /api/tweets?start_date=2025-05-11&end_date=2025-05-18 HTTP/1.1[0m" 500 -
+2025-05-18 00:56:03,708 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:56:03] "[36mGET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1[0m" 304 -
+2025-05-18 00:56:03,708 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:56:03] "[36mGET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1[0m" 304 -
+2025-05-18 00:56:03,708 - src.dashboard - ERROR - Error fetching from API /api/tweets: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5001/api/tweets?start_date=2025-05-11&end_date=2025-05-18
+2025-05-18 00:56:03,936 - database - INFO - Retrieved 3 celebrities
+2025-05-18 00:56:03,936 - src.api - ERROR - Error fetching celebrities: Object of type ObjectId is not JSON serializable
+2025-05-18 00:56:03,936 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:56:03] "[35m[1mGET /api/celebrities HTTP/1.1[0m" 500 -
+2025-05-18 00:56:03,936 - src.dashboard - ERROR - Error fetching from API /api/celebrities: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5001/api/celebrities
+2025-05-18 00:56:03,937 - src.dashboard - ERROR - Error in populate_dropdowns: 'NoneType' object is not iterable
+2025-05-18 00:56:03,937 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:56:03] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:56:04,034 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:56:04] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:56:04,080 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:56:04] "GET / HTTP/1.1" 200 -
+2025-05-18 00:56:04,153 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:56:04] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:56:04,156 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:56:04] "GET /_dash-layout HTTP/1.1" 200 -
+2025-05-18 00:56:04,158 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:56:04] "GET /_dash-dependencies HTTP/1.1" 200 -
+2025-05-18 00:56:04,162 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:56:04] "GET /_favicon.ico?v=3.0.4 HTTP/1.1" 200 -
+2025-05-18 00:56:04,166 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:56:04] "[36mGET /_dash-component-suites/dash/dcc/async-dropdown.js HTTP/1.1[0m" 304 -
+2025-05-18 00:56:04,166 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:56:04] "[36mGET /_dash-component-suites/dash/dcc/async-datepicker.js HTTP/1.1[0m" 304 -
+2025-05-18 00:56:04,166 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:56:04] "[36mGET /_dash-component-suites/dash/dcc/async-graph.js HTTP/1.1[0m" 304 -
+2025-05-18 00:56:04,167 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:56:04] "[36mGET /_dash-component-suites/dash/dash_table/async-highlight.js HTTP/1.1[0m" 304 -
+2025-05-18 00:56:04,169 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:56:04] "[36mGET /_dash-component-suites/plotly/package_data/plotly.min.js HTTP/1.1[0m" 304 -
+2025-05-18 00:56:04,172 - src.api - ERROR - Error fetching tweets: DatabaseHandler.get_tweets() got an unexpected keyword argument 'celebrity'
+2025-05-18 00:56:04,172 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:56:04] "[36mGET /_dash-component-suites/dash/dash_table/async-table.js HTTP/1.1[0m" 304 -
+2025-05-18 00:56:04,172 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:56:04] "[35m[1mGET /api/tweets?start_date=2025-05-11&end_date=2025-05-18 HTTP/1.1[0m" 500 -
+2025-05-18 00:56:04,173 - src.dashboard - ERROR - Error fetching from API /api/tweets: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5001/api/tweets?start_date=2025-05-11&end_date=2025-05-18
+2025-05-18 00:56:04,188 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:56:04] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:56:04,400 - database - INFO - Retrieved 3 celebrities
+2025-05-18 00:56:04,400 - src.api - ERROR - Error fetching celebrities: Object of type ObjectId is not JSON serializable
+2025-05-18 00:56:04,401 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:56:04] "[35m[1mGET /api/celebrities HTTP/1.1[0m" 500 -
+2025-05-18 00:56:04,401 - src.dashboard - ERROR - Error fetching from API /api/celebrities: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5001/api/celebrities
+2025-05-18 00:56:04,402 - src.dashboard - ERROR - Error in populate_dropdowns: 'NoneType' object is not iterable
+2025-05-18 00:56:04,402 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:56:04] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:56:09,660 - src.api - ERROR - Error fetching tweets: DatabaseHandler.get_tweets() got an unexpected keyword argument 'celebrity'
+2025-05-18 00:56:09,661 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:56:09] "[35m[1mGET /api/tweets?start_date=2025-05-11&end_date=2025-05-18 HTTP/1.1[0m" 500 -
+2025-05-18 00:56:09,661 - src.dashboard - ERROR - Error fetching from API /api/tweets: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5001/api/tweets?start_date=2025-05-11&end_date=2025-05-18
+2025-05-18 00:56:09,687 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:56:09] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:56:10,287 - src.api - ERROR - Error fetching tweets: DatabaseHandler.get_tweets() got an unexpected keyword argument 'celebrity'
+2025-05-18 00:56:10,288 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:56:10] "[35m[1mGET /api/tweets?start_date=2025-05-11&end_date=2025-05-18 HTTP/1.1[0m" 500 -
+2025-05-18 00:56:10,289 - src.dashboard - ERROR - Error fetching from API /api/tweets: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5001/api/tweets?start_date=2025-05-11&end_date=2025-05-18
+2025-05-18 00:56:10,323 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:56:10] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:56:11,207 - src.api - ERROR - Error fetching tweets: DatabaseHandler.get_tweets() got an unexpected keyword argument 'celebrity'
+2025-05-18 00:56:11,208 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:56:11] "[35m[1mGET /api/tweets?start_date=2025-05-11&end_date=2025-05-18 HTTP/1.1[0m" 500 -
+2025-05-18 00:56:11,209 - src.dashboard - ERROR - Error fetching from API /api/tweets: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5001/api/tweets?start_date=2025-05-11&end_date=2025-05-18
+2025-05-18 00:56:11,288 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:56:11] "POST /_dash-update-component HTTP/1.1" 200 -
+2025-05-18 00:56:11,362 - src.api - ERROR - Error fetching tweets: DatabaseHandler.get_tweets() got an unexpected keyword argument 'celebrity'
+2025-05-18 00:56:11,362 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:56:11] "[35m[1mGET /api/tweets?start_date=2025-05-11&end_date=2025-05-18 HTTP/1.1[0m" 500 -
+2025-05-18 00:56:11,363 - src.dashboard - ERROR - Error fetching from API /api/tweets: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5001/api/tweets?start_date=2025-05-11&end_date=2025-05-18
+2025-05-18 00:56:11,382 - werkzeug - INFO - 127.0.0.1 - - [18/May/2025 00:56:11] "POST /_dash-update-component HTTP/1.1" 200 -
