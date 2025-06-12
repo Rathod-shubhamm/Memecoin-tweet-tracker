@@ -1,120 +1,210 @@
 """
-Tweet Analyzer module for processing and analyzing tweets related to memecoins.
+Tweet analyzer for the Memecoin Tweet Tracker.
+Analyzes tweets to extract mentions of memecoins and sentiment.
 """
 
 import logging
 import re
-from textblob import TextBlob
-from typing import List, Dict, Any
+import json
+import nltk
+from nltk.sentiment import SentimentIntensityAnalyzer
+from collections import Counter
 
 logger = logging.getLogger(__name__)
 
 class TweetAnalyzer:
-    """Class for analyzing tweets and extracting memecoin-related information."""
+    """
+    Analyzes tweets to identify mentioned coins, determine sentiment,
+    and calculate importance scores.
+    """
     
     def __init__(self):
-        """Initialize the TweetAnalyzer."""
-        self.memecoin_patterns = {
-            'DOGE': r'\b(dogecoin|doge coin|\$doge)\b',
-            'SHIB': r'\b(shiba|shib|\$shib)\b',
-            'PEPE': r'\b(pepe coin|\$pepe)\b',
-            # Add more patterns as needed
-        }
-    
-    def analyze_tweet(self, tweet_text: str) -> Dict[str, Any]:
-        """
-        Analyze a tweet and extract relevant information.
+        """Initialize the tweet analyzer with required components."""
+        # Initialize NLTK components
+        try:
+            nltk.download('vader_lexicon', quiet=True)
+            self.sentiment_analyzer = SentimentIntensityAnalyzer()
+        except Exception as e:
+            logger.error(f"Error initializing NLTK: {e}")
+            self.sentiment_analyzer = None
         
-        Args:
-            tweet_text (str): The text content of the tweet
-            
+        # Load custom sentiment lexicon for crypto terms
+        self.crypto_lexicon = self._load_crypto_lexicon()
+        
+        logger.info("Tweet analyzer initialized")
+    
+    def _load_crypto_lexicon(self):
+        """
+        Load custom sentiment lexicon for crypto-specific terms.
+        
         Returns:
-            Dict[str, Any]: Dictionary containing analysis results
+            dict: Dictionary of crypto terms and their sentiment scores
         """
         try:
-            # Initialize analysis results
-            analysis = {
-                'coins_mentioned': [],
-                'sentiment': 'neutral',
-                'sentiment_score': 0.0,
-                'is_crypto_related': False
+            # This would typically load from a file, but for simplicity,
+            # we'll define it directly here
+            return {
+                "moon": 0.8,
+                "mooning": 0.8,
+                "bullish": 0.6,
+                "bearish": -0.6,
+                "dump": -0.7,
+                "pumping": 0.7,
+                "scam": -0.9,
+                "rugpull": -0.9,
+                "gem": 0.7,
+                "hodl": 0.5,
+                "lambo": 0.6,
+                "fomo": 0.3,
+                "to the moon": 0.8,
+                "going to zero": -0.8,
+                "worthless": -0.9,
+                "rocket": 0.7,
+                "🚀": 0.7,
+                "💎": 0.6,
+                "🌙": 0.7,
+                "💪": 0.5,
+                "📉": -0.7,
+                "📈": 0.7,
+                "🔥": 0.6
             }
+        except Exception as e:
+            logger.error(f"Error loading crypto lexicon: {e}")
+            return {}
+    
+    def analyze_tweet(self, tweet, keywords):
+        """
+        Analyze a tweet to extract information about mentioned coins and sentiment.
+        
+        Args:
+            tweet (dict): Tweet data
+            keywords (list): List of keywords to look for
             
-            # Check for memecoin mentions
-            for coin, pattern in self.memecoin_patterns.items():
-                if re.search(pattern, tweet_text.lower()):
-                    analysis['coins_mentioned'].append(coin)
-                    analysis['is_crypto_related'] = True
+        Returns:
+            dict: Analysis results including mentioned coins, sentiment, etc.
+        """
+        try:
+            text = tweet.get("text", "").lower()
             
-            # Perform sentiment analysis
-            blob = TextBlob(tweet_text)
-            sentiment_score = blob.sentiment.polarity
+            # Extract mentioned coins
+            coins_mentioned = self._extract_coins(text, keywords)
             
-            # Categorize sentiment
-            if sentiment_score > 0.1:
-                analysis['sentiment'] = 'positive'
-            elif sentiment_score < -0.1:
-                analysis['sentiment'] = 'negative'
-            else:
-                analysis['sentiment'] = 'neutral'
+            # Determine sentiment
+            sentiment = self._analyze_sentiment(text)
             
-            analysis['sentiment_score'] = sentiment_score
+            # Calculate importance score
+            importance_score = self._calculate_importance(tweet, coins_mentioned, sentiment)
             
-            return analysis
-            
+            return {
+                "coins_mentioned": coins_mentioned,
+                "sentiment": sentiment,
+                "importance_score": importance_score
+            }
         except Exception as e:
             logger.error(f"Error analyzing tweet: {e}")
             return {
-                'coins_mentioned': [],
-                'sentiment': 'neutral',
-                'sentiment_score': 0.0,
-                'is_crypto_related': False
+                "coins_mentioned": [],
+                "sentiment": "neutral",
+                "importance_score": 0.0
             }
     
-    def extract_hashtags(self, tweet_text: str) -> List[str]:
+    def _extract_coins(self, text, keywords):
         """
-        Extract hashtags from tweet text.
+        Extract mentions of coins from tweet text.
         
         Args:
-            tweet_text (str): The text content of the tweet
+            text (str): Tweet text
+            keywords (list): List of keywords to look for
             
         Returns:
-            List[str]: List of hashtags found in the tweet
+            list: List of mentioned coins
         """
-        try:
-            hashtags = re.findall(r'#(\w+)', tweet_text)
-            return [tag.lower() for tag in hashtags]
-        except Exception as e:
-            logger.error(f"Error extracting hashtags: {e}")
-            return []
+        coins = []
+        text_lower = text.lower()
+        
+        # Look for keyword matches
+        for keyword in keywords:
+            if keyword.lower() in text_lower:
+                coins.append(keyword)
+        
+        # Look for cashtag mentions (e.g., $DOGE, $SHIB)
+        cashtag_pattern = r'\$([a-zA-Z0-9]+)'
+        cashtags = re.findall(cashtag_pattern, text)
+        coins.extend(cashtags)
+        
+        # Remove duplicates
+        return list(set(coins))
     
-    def is_crypto_related(self, tweet_text: str) -> bool:
+    def _analyze_sentiment(self, text):
         """
-        Check if a tweet is related to cryptocurrency.
+        Analyze sentiment of tweet text.
         
         Args:
-            tweet_text (str): The text content of the tweet
+            text (str): Tweet text
             
         Returns:
-            bool: True if the tweet is crypto-related, False otherwise
+            str: Sentiment category ('positive', 'negative', 'neutral')
         """
-        try:
-            crypto_terms = [
-                'crypto', 'token', 'memecoin', 'coin', 'moon', 'hodl',
-                'blockchain', 'bitcoin', 'ethereum', 'altcoin'
-            ]
+        if not self.sentiment_analyzer:
+            return "neutral"
+        
+        # Get base sentiment scores from NLTK
+        sentiment_scores = self.sentiment_analyzer.polarity_scores(text)
+        
+        # Adjust with crypto-specific lexicon
+        for term, score in self.crypto_lexicon.items():
+            if term in text.lower():
+                sentiment_scores['compound'] += score
+                # Ensure the score stays within bounds
+                sentiment_scores['compound'] = max(-1.0, min(1.0, sentiment_scores['compound']))
+        
+        # Determine sentiment category based on compound score
+        if sentiment_scores['compound'] >= 0.05:
+            return "positive"
+        elif sentiment_scores['compound'] <= -0.05:
+            return "negative"
+        else:
+            return "neutral"
+    
+    def _calculate_importance(self, tweet, coins_mentioned, sentiment):
+        """
+        Calculate importance score for a tweet based on various factors.
+        
+        Args:
+            tweet (dict): Tweet data
+            coins_mentioned (list): List of coins mentioned in the tweet
+            sentiment (str): Sentiment of the tweet
             
-            # Check for crypto terms
-            text_lower = tweet_text.lower()
-            if any(term in text_lower for term in crypto_terms):
-                return True
-            
-            # Check for memecoin mentions
-            if any(re.search(pattern, text_lower) for pattern in self.memecoin_patterns.values()):
-                return True
-            
-            return False
-            
-        except Exception as e:
-            logger.error(f"Error checking crypto relation: {e}")
-            return False 
+        Returns:
+            float: Importance score between 0 and 1
+        """
+        score = 0.0
+        
+        # Base score from engagement metrics
+        retweet_count = tweet.get("retweet_count", 0)
+        like_count = tweet.get("like_count", 0)
+        engagement_score = min(1.0, (retweet_count * 0.01 + like_count * 0.005) / 10)
+        score += engagement_score * 0.4  # 40% weight
+        
+        # Score from number of coins mentioned (more specific is better)
+        coin_count = len(coins_mentioned)
+        if coin_count == 1:
+            score += 0.3  # 30% weight - perfect, specific mention
+        elif coin_count > 1:
+            score += 0.2  # 20% weight - multiple coins
+        else:
+            score += 0.0  # No coins specifically identified
+        
+        # Score from sentiment (extreme sentiments are more interesting)
+        if sentiment == "positive":
+            score += 0.2  # 20% weight
+        elif sentiment == "negative":
+            score += 0.15  # 15% weight
+        
+        # Additional factors could be considered:
+        # - Celebrity's influence level
+        # - Presence of links
+        # - Presence of price predictions
+        # - Previous impact of tweets from this celebrity
+        
+        return round(min(1.0, score), 2)
